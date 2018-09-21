@@ -1,0 +1,103 @@
+/*General Styles*/
+.body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D2022;
+    font-size: 24px;
+}
+
+
+.header {
+    background-color: #1D2022;
+    position: absolute;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+/*Basic positioning*/
+
+.main {
+    position: absolute;
+    top: 10%;
+    height: 55%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.buttom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35%;
+    text-align: center;
+
+
+
+}
+
+
+
+
+.logo {
+    margin: 8px;
+
+}
+
+#button {
+    padding: 20px;
+    /* "Book a Room" Button: */
+    background: #1D2022;
+    border: 1px solid #979797;
+    border-radius: 48.5px;
+    width: 75%;
+    /* Book a Room: */
+    font-family: OpenSans-Bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+
+}
+
+
+/*Bookings Button Main Styling*/
+
+.main button{
+    /* Rectangle 4: */
+    position: relative;
+    top: 60px;
+    width: 300px;
+    border: 2px solid #1D2022;
+    border-radius: 9px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #1D2022;
+    letter-spacing: -0.28px;
+
+}
+
+
+/*!* 12:00 - 15:00: *!*/
+/*opacity: 0.68;*/
+/*font-family: OpenSans-Regular;*/
+/*font-size: 15px;*/
+/*color: #1D2022;*/
+/*letter-spacing: -0.28px;*/
+/*!* 15.09.2018: *!*/
+/*opacity: 0.68;*/
+/*font-family: OpenSans-Regular;*/
+/*font-size: 15px;*/
+/*color: #1D2022;*/
+/*letter-spacing: -0.28px;*/
+/*!* Room: Rick: *!*/
+/*font-family: OpenSans-SemiBold;*/
+/*font-size: 16px;*/
+/*color: #1D2022;*/
+/*letter-spacing: -0.27px;*/
