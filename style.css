@@ -22,19 +22,13 @@
 .main {
     position: absolute;
     top: 10%;
-    height: 55%;
+    height: 90%;
     left: 0;
     right: 0;
     text-align: center;
 }
 
-.buttom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35%;
-    text-align: center;
+
 
 
 
@@ -44,13 +38,15 @@
 
 
 .logo {
-    margin: 8px;
+    margin: 15px;
 
 }
+/* "Book a Room" Button: */
 
 #button {
+    position: relative;
+    top:280px;
     padding: 20px;
-    /* "Book a Room" Button: */
     background: #1D2022;
     border: 1px solid #979797;
     border-radius: 48.5px;
@@ -83,21 +79,14 @@
 
 }
 
+.backButton {
+    position: absolute;
+    left: 30px;
+    top:30px;
+}
 
-/*!* 12:00 - 15:00: *!*/
-/*opacity: 0.68;*/
-/*font-family: OpenSans-Regular;*/
-/*font-size: 15px;*/
-/*color: #1D2022;*/
-/*letter-spacing: -0.28px;*/
-/*!* 15.09.2018: *!*/
-/*opacity: 0.68;*/
-/*font-family: OpenSans-Regular;*/
-/*font-size: 15px;*/
-/*color: #1D2022;*/
-/*letter-spacing: -0.28px;*/
-/*!* Room: Rick: *!*/
-/*font-family: OpenSans-SemiBold;*/
-/*font-size: 16px;*/
-/*color: #1D2022;*/
-/*letter-spacing: -0.27px;*/
+.calendar {
+    position: relative;
+    top: 100px;
+}
+
