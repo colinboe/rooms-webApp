@@ -20,6 +20,7 @@
 
     <div id="app" class="main">
         <div v-show="!nextScreen">
+            <h3 class="bookedRoomsTitle">Your booked rooms:</h3>
             <button> {{bookingsbutton1}}</button>
             <button> {{bookingsbutton2}}</button>
             <button id="button" v-on:click="nextScreen=!nextScreen">{{buttonText}}</button>
@@ -38,17 +39,17 @@
                     </g>
                 </svg>
             </div>
-            <h1 class="calendar">{{calendar}}</h1>
 
 
+            <div class="calendar">
+            <h1>{{calendar}}</h1>
+            </div>
 
-
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
         </div>
-
-
-
     </div>
-
 
 
     </div>
